@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <style name="Theme.SecureVault" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.SecureVault.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@android:color/black</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_vault_splash</item>
+        <item name="postSplashScreenTheme">@style/Theme.SecureVault</item>
+    </style>
 </resources>
